@@ -1,8 +1,8 @@
 from table import keyp, shift_table, key_comp
 from util import hex_to_bin, bin_to_hex, left_shift, permutation, encrypt
 
-pt = "123456ABCD132536"
-key = "AABB09182736CCDD"
+pt = "123456789ABCDEF1"
+key = "AABBCCDDEEFF1122"
 
 # Key Process
 key = hex_to_bin(key)
